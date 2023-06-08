@@ -1,7 +1,37 @@
 ol > li{
     
     color: blueviolet;
+    font-size: 24px;
 }
+
+/* @media ({
+
+    ol > li{
+    
+        color: blue;
+        font-size: 50px;
+    }
+    
+    .warning{
+        background-color: pink;
+        font-size: 90px;
+        
+    }
+} */
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+    
+    ol > li{
+    
+        color: blue;
+        font-size: 50px;
+    }
+
+  }  
+
 
 a:hover{
     color: brown;
